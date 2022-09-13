@@ -30,4 +30,5 @@
 O se puede utilizar el operador OR
 
 `SELECT apellidos FROM usuario WHERE apellidos ='Vanegas' OR apellidos ='Cetina'`
-![Consulta4](img/img4.2.png"consulta 4 pero con OR")
+
+![Consulta4](img/img4.2.png "consulta 4 pero con OR")
