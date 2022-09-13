@@ -57,3 +57,9 @@ O se puede utilizar el operador OR
 `SELECT * FROM usuario WHERE nombre LIKE '___a%'`
 
 ![Consulta 8](img/img8.png "consulta 8")
+
+9. Si se desea obtener los registros cuya indentificación este entre el intervalo 110 y 150, se debe utilizar la clausula BETWEEN que sirve para especificar un intervalo de valores.
+
+`SELECT * from usuario WHERE Identificación BETWEEN '110' AND '150'`
+
+![Consulta 9](img/img9.png "consulta 9")
