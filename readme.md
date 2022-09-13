@@ -74,3 +74,10 @@ O se puede utilizar el operador OR
 
 ![Consulta 10](img/img10.png "consulta 10")
 ![Consulta 10](img/img10.2.png "consulta 10")
+
+
+11.Para actualizar la ciudad de nacimiento de Cristian Vanegas, cuya identificación es 114.
+
+`UPDATE usuario SET ciudad_nac = 'Manizales' WHERE Identificación='114'`
+
+![Consulta 11](img/img11.png "consulta 11")
