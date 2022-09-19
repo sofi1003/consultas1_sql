@@ -81,3 +81,17 @@ O se puede utilizar el operador OR
 `UPDATE usuario SET ciudad_nac = 'Manizales' WHERE Identificación='114'`
 
 ![Consulta 11](img/img11.png "consulta 11")
+
+
+## INNER JOIN 
+
+Permite obtener datos de dos o mas tablas. Cuando se realiza la concatacion de las tablas, no necesariamente se debe mostrar todos los datos de las tablas 
+# TABLA PEDIDOS
+
+![Tabla Pedidos](img/tabla_pedidos.png "Tabla Pedidos")
+
+12. Para visualizar los campos identificació, nombre, apellidos de la tabla usuario y nropedido, fecha de comprar, decha de vecimiento y observación se debe realizar la siguiente instruccion SQL:
+
+`SELECT usuario.Identificación usuario.nombre, usuario.apellidos, pedido.nropedido, pedido.fechacompra, pedido.fechavence, pedidos.observacion FROM usuario INNER JOIN Pedidos ON usuario.Identificación = pedidos.Identificación`
+
+![Tabla Pedidos](img/img_12.png "Consulta 12")
