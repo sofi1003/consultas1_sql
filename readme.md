@@ -94,4 +94,11 @@ Permite obtener datos de dos o mas tablas. Cuando se realiza la concatacion de l
 
 `SELECT usuario.Identificación usuario.nombre, usuario.apellidos, pedido.nropedido, pedido.fechacompra, pedido.fechavence, pedidos.observacion FROM usuario INNER JOIN Pedidos ON usuario.Identificación = pedidos.Identificación`
 
-![Tabla Pedidos](img/img_12.png "Consulta 12")
+![Consulta 12](img/img_12.png "Consulta 12")
+
+13. Para visualizar todos los cmapos de las tablas usuarios y pedidos donde Identificacion sea mayor que 100, se debe realizar la siguiente instruccion
+
+`SELECT usuario.* , Pedidos.* FROM usuario INNER JOIN Pedidos ON usuario.Identificación= Pedidos.Identificacion WHERE usuario.Identificación>100;`
+![Consulta 13](img/img_13.png "Consulta 13")
+
+
